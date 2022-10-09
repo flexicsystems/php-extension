@@ -1,0 +1,38 @@
+{
+  "name": "flexic/php-extended",
+  "type": "library",
+  "description": "Provides a extension of native php-methods.",
+  "keywords": [
+    "extension",
+    "native"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hendrik Legge",
+      "email": "info@themepoint.de",
+      "homepage": "https://themepoint.de"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "config": {
+    "platform": {
+      "php": "8.1"
+    },
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "files": [
+      "bootstrap.php"
+    ]
+  },
+  "require-dev": {
+    "ergebnis/php-cs-fixer-config": "^4.9.0",
+    "phpstan/phpstan": "^1.8.8",
+    "phpstan/phpstan-deprecation-rules": "^1.0.0",
+    "phpstan/phpstan-strict-rules": "^1.4.4"
+  }
+}
